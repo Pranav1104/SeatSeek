@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SEATSEEK</title>
+    <link rel="icon" href="assets\title_Logo.jpg" type = "image/x-icon">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="assets\css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <!-- <nav id="navbar">
+            <img src="LOGO_EDITTED_CONV.jpg" alt="">
+        </nav> -->
+
+        <a href="#" class="logo"><span>S</span>eat<span>S</span>eek</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="assets/about.html">about</a>
+            <a href="book.html">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="assets\contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>dicover new places with us, adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="assets\images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="assets\images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="assets\images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="assets\images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="assets\images/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="assets\images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+        <h1 class="heading">
+            <span>a</span>
+            <span>b</span>
+            <span>o</span>
+            <span>u</span>
+            <span>t</span>
+            <span class="space"></span>
+            <span>u</span>
+            <span>s</span>
+        </h1>
+
+        <!--<div class="content">
+            
+            <p>SEATSEEK Adventure Tours not only provides solutions for personal travels but also works on your professional travel needs. Whether it is a short trip or an office off-site that needs to be arranged. SEATSEEK  provides more than 50 group tour products for Europe, almost 50 products for South East Asia, exclusive special tours for ladies, students, senior citizens, and trips to exotic destinations for newlyweds. Besides, we follow continuous research for new products, themes, and a range of travel upgrades that helps us serve the best to our guests whether it's a corporate tour, romantic delight, adventure junkies, we have ample tour choices to suit most of your taste, requirement, and budget. </p>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section> -->
+    <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h3 class="featurette-heading">SEATSEEK Adventure Tours not only provides solutions for personal travels but also works on your professional travel needs. Whether it is a short trip or an office off-site that needs to be arranged. SEATSEEK  provides more than 50 group tour products for Europe, almost 50 products for South East Asia, exclusive special tours for ladies, students, senior citizens, and trips to exotic destinations for newlyweds. Besides, we follow continuous research for new products, themes, and a range of travel upgrades that helps us serve the best to our guests whether it's a corporate tour, romantic delight, adventure junkies, we have ample tour choices to suit most of your taste, requirement, and budget.</h3>
+
+                <!--<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                    tellus ac cursus commodo.</p> -->
+            </div>
+            <div class="col-md-5">
+                <img class="img-fluid" src="assets/about-1.jpg" alt="">
+                 
+            </div>
+        </div>
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">We started iCoder in 1877 <span class="text-muted">It’ll blow your
+                        mind.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                    tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="img-fluid" src="assets/about-2.jpg" alt="">
+                 
+            </div>
+        </div>
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your
+                        mind.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                    tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="img-fluid" src="assets/about-3.jpg" alt="">
+                 
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+    <!-- about section ends -->
+
+        <!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span> 
+        <span>s</span></h1>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up">
+            <div class="image">
+                <img src="assets/iceland.jpg" alt="">
+                <h3> <i class="fas fa-map-marker-alt"></i> Iceland </h3>
+            </div>
+            <div class="content">
+                <div class="price"> 290.99 <span>350.99</span> </div>
+                <p></p>
+                <a href="#" class="btn"> book now</a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <div class="image">
+                <img src="assets/images/p-2.jpg" alt="">
+                <h3> <i class="fas fa-map-marker-alt"></i> Tatra Mountains </h3>
+            </div>
+            <div class="content">
+                <div class="price"> 290.99 <span>350.99</span> </div>
+                <p></p>
+                <a href="#" class="btn"> book now</a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <div class="image">
+                <img src="assets/dolomites.jpg" alt="">
+                <h3> <i class="fas fa-map-marker-alt"></i> Dolomites </h3>
+            </div>
+            <div class="content">
+                <div class="price"> 290.99 <span>350.99</span> </div>
+                <p></p>
+                <a href="#" class="btn"> book now</a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <div class="image">
+                <img src="assets/images/p-4.jpg" alt="">
+                <h3> <i class="fas fa-map-marker-alt"></i> Paris </h3>
+            </div>
+            <div class="content">
+                <div class="price"> 290.99 <span>350.99</span> </div>
+                <p></p>
+                <a href="#" class="btn"> book now</a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <div class="image">
+                <img src="assets/images/p-5.jpg" alt="">
+                <h3> <i class="fas fa-map-marker-alt"></i> Thailand </h3>
+            </div>
+            <div class="content">
+                <div class="price"> 290.99 <span>350.99</span> </div>
+                <p></p>
+                <a href="#" class="btn"> book now</a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <div class="image">
+                <img src="assets/images/p-6.jpg" alt="">
+                <h3> <i class="fas fa-map-marker-alt"></i> egypt </h3>
+            </div>
+            <div class="content">
+                <div class="price"> 290.99 <span>350.99</span> </div>
+                <p></p>
+                <a href="#" class="btn"> book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> 
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in">
+            <span>01</span>
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p></p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <span>02</span>
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p></p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <span>03</span>
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p></p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <span>04</span>
+            <i class="fas fa-globe"></i>
+            <h3>around the world</h3>
+            <p></p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <span>05</span>
+            <i class="fas fa-hiking"></i>
+            <h3>new adventures</h3>
+            <p></p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <span>06</span>
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p></p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="assets/iceland_whale2.jpg" alt="">
+                <div class="content">
+                    <h3>Icaland Whale</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="assets/george_town.png" alt="">
+                <div class="content">
+                    <h3>George Town</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="assets/dolomite-alps-wallpaper-preview1.jpg" alt="">
+                <div class="content">
+                    <h3>Dolomite Alps</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="assets/bayon.jpg" alt="">
+                <div class="content">
+                    <h3>Bayon</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="assets/Ankor_Wat_temple.jpg" alt="">
+                <div class="content">
+                    <h3>Ankor Wat Temple</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="assets/Bangkok1.jpg" alt="">
+                <div class="content">
+                    <h3>Bankok</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="assets/iceland.jpg" alt="">
+                <div class="content">
+                    <h3>Iceland</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="assets/thailand.jpg" alt="">
+                <div class="content">
+                    <h3>Thailand</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="assets/post-1.jpg" alt="">
+                <div class="content">
+                    <h3>Paris</h3>
+                    <p></p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="assets/images/pic2.png" alt="">
+                        <h3>Niraj Amrutkar</h3>
+                        <p> I would like to mention that both tour managers were exceptionally adept of the entire tour as well as made sure to make us feel utmost comfortable and enjoy the entire journey.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="assets/images/pic4.png" alt="">
+                        <h3>Atharva Sangit</h3>
+                        <p>Thanks a lot for such an amazing tour of europe.europe  was in my bucket list since so long but I was not able to make it. After almost one and half year of pandemic situation, I was craving for some me time. This was my first solo trip and words are not enough to express my awesome experience.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="assets/images/pic2.png" alt="">
+                        <h3>Pranav Bhadekar</h3>
+                        <p> It was a wonderful experience. The Tour was organized in a very professional manner. Everything was organized so well that we did not have any trouble throughout the tour.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="assets/images/pic4.png" alt="">
+                        <h3>Pratik Jadhav</h3>
+                        <p> Excellent tour..great memories..with excellent tour managers.stay was in amazing properties, making us feel very royal all the time. Food was good and authentic.Tour managers took personal care of travellers of every age..we became a family in a short time..will keep connected to you always..</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- brand section  -->
+    <section class="brand-container">
+
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="assets/images/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/images/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/images/3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/images/4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/images/5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/images/6.jpg" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est
+                    accusantium voluptas enim nemo facilis sit debitis.</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="https://www.linkedin.com/in/pranav-bhadekar-83924621a/">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> created by <span> Pranav Bhadekar </span> | all rights reserved! </h1>
+
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="assets/js/script.js"></script>
+    
+
+</body>
+
+</html>

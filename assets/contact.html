@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> -->
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins',sans-serif;
+    }
+
+    .contact{
+        position: relative;
+        min-height: 100vh;
+        padding: 50px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background: url(blue1.jpg); */
+        background-size: cover;
+    }
+
+    .contact .content{
+        max-width: 800px;
+        text-align: center;
+    }
+
+    .contact .content h2{
+        font-size: 36px;
+        font-weight: 500;
+        color: #ffc831;
+    }
+
+    .contact .content p{
+        font-weight: 300;
+        color: #333;
+    }
+
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .container .contactInfo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .contactInfo .box{
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+    }
+
+    .container .contactInfo .box .icon{
+        min-width: 60px;
+        height: 60px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 22px;
+    }
+
+    .container .contactInfo .box .text{
+        display: flex;
+        margin-left: 20px;
+        font-size: 16px;
+        color: #333;
+        flex-direction: column;
+        font-weight: 300;
+    }
+
+    .container .contactInfo .box .text h3{
+        font-weight: 500;
+        color: #00bcd4;
+        
+    }
+
+     /* .contactForm{
+         width: 40%; 
+        padding: 60px;
+        background: #fff;
+    }  */
+
+       .contactForm h2{
+        font-size: 30px;
+        color:#00bcd4;
+        font-weight: 500;
+    } 
+
+     .contactForm .inputBox{
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 10px;
+    }  
+    
+    
+</style>
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>"WE Are Always Ready To Help You Out"</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Seatseek adventure company,2nd floor,Balaji park,Sion,Mumbai,422202</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>1800 22 0000</p>
+                        <p>+91 22 24111111</p>
+                        <p>+91 9934567890</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>vacation@seatseek.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm"></div>
+            <form action="" onsubmit="return Alert() " method="get">
+                <h2 style="color: #fff;">Send Message</h2>
+                <br><div class="inputBox">
+                    <input type="text" name="" required="required" placeholder="Full Name" style="border-radius: 10px; padding: 3px 40px; border: none; ">
+                    <!-- <span>Full Name</span> -->
+                </div>
+                <br><div class="inputBox">
+                    <input type="text" name="" required="required" placeholder="Email" style="border-radius: 10px; padding: 3px 40px; border: none;">
+                    <!-- <span>Email</span> -->
+                </div>
+                <br><div class="inputBox" >
+                    <textarea required="required" placeholder="Your Message" style="border-radius: 10px; padding: 6px 40px;  border: none; "></textarea>
+                    <!-- <span>Type Your Message...</span> -->
+                </div>
+               <br> <div class="button"><input type="submit" name="" value="send" style="border-radius: 5px; border: none;
+                background-color: #00bcd4;
+                color: white;
+                padding: 10px 15px;
+                text-align: center;
+                outline: none;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;"></div>
+            </form>
+        </div>
+    </section>
+
+</body>
+<script>
+  function  Alert(){
+        alert("Message sent successfully")
+    }
+</script>
+</html>
